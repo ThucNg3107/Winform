@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|c:\\users\\thucc\\onedrive\\documents\\github\\winform\\do an\\quanlysieuthi\\quanlysieuthi\\qlst\\viewmodel\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:viewmodel\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\viewmodel\\detailorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:viewmodel\\detailorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\view\\orderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:view\\orderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\viewmodel\\addimportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:viewmodel\\addimportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\viewmodel\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:viewmodel\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\view\\detailndview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{299EE2AC-2131-474E-8234-92F7FD5533AC}|QLST.csproj|solutionrelative:view\\detailndview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\ProductsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ProductsViewModel.cs",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\ProductsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\ProductsViewModel.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAUwK0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:30:12.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\OrderViewModel.cs",
+              "RelativeToolTip": "ViewModel\\OrderViewModel.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:30:04.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\DetailOrderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\DetailOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\DetailOrderViewModel.cs",
+              "RelativeToolTip": "ViewModel\\DetailOrderViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:29:58.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderView.xaml",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\OrderView.xaml",
+              "RelativeDocumentMoniker": "View\\OrderView.xaml",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\OrderView.xaml",
+              "RelativeToolTip": "View\\OrderView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T13:29:45.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T13:29:44.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "View\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\LoginWindow.xaml",
+              "RelativeToolTip": "View\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T13:29:43.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\HomeView.xaml",
+              "RelativeDocumentMoniker": "View\\HomeView.xaml",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\HomeView.xaml",
+              "RelativeToolTip": "View\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T13:29:37.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddImportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\AddImportViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AddImportViewModel.cs",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\AddImportViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AddImportViewModel.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAgwB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:15:21.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\ViewModel\\CustomerViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CustomerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:56:52.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DetailNDView.xaml",
+              "DocumentMoniker": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\DetailNDView.xaml",
+              "RelativeDocumentMoniker": "View\\DetailNDView.xaml",
+              "ToolTip": "C:\\Users\\thucc\\OneDrive\\Documents\\GitHub\\WinForm\\Do an\\QuanLySieuThi\\QuanLySieuThi\\QLST\\View\\DetailNDView.xaml",
+              "RelativeToolTip": "View\\DetailNDView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T12:56:49.201Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

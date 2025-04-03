@@ -1,0 +1,157 @@
+﻿<Window x:Class="QLST.View.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:local="clr-namespace:QLST.View"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        x:Name="LoginWd"
+        DataContext="{StaticResource LoginVM}"
+        Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Border
+        CornerRadius="30,40,40,30"
+        Background="AliceBlue"
+        >
+        <i:Interaction.Triggers>
+            <i:EventTrigger EventName="MouseLeftButtonDown">
+                <i:InvokeCommandAction Command="{Binding MoveLogin}"
+                                                       CommandParameter="{Binding ElementName=LoginWd}"></i:InvokeCommandAction>
+            </i:EventTrigger>
+        </i:Interaction.Triggers>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="280"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                    <Image Source="/Resource/Image/rb_51586.png" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </Grid>
+            <Border Grid.Column="1" Background="#17181F"
+                    CornerRadius="0,30,30,0"
+                    BorderThickness="0"
+                    >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <StackPanel HorizontalAlignment="Right" Margin="0,10,20,0" Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="WindowMinimize" Foreground="White" Height="24" Width="24" Margin="0,0,8,0">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding MinimizeLogin}"
+                                                       CommandParameter="{Binding ElementName=LoginWd}"></i:InvokeCommandAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </materialDesign:PackIcon>
+                            <materialDesign:PackIcon Kind="CloseThick" Foreground="White" Height="24" Width="24">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding CloseLogin}"
+                                                       CommandParameter="{Binding ElementName=LoginWd}"></i:InvokeCommandAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </materialDesign:PackIcon>
+                        </StackPanel>
+                        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0">
+                            <TextBlock FontSize="24" FontFamily="{StaticResource Custom}" Foreground="AliceBlue">PHẦN MỀM</TextBlock>
+                            <TextBlock FontSize="24" FontFamily="{StaticResource Custom}" Foreground="AliceBlue">QUẢN LÝ CỬA HÀNG</TextBlock>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <StackPanel Margin="0,20,0,0">
+                            <TextBox
+                                Text="{Binding Username}"
+                                Style="{StaticResource MaterialDesignFilledTextBox}"
+                                Background="White"
+                                Height="48"
+                                Width="250"
+                                FontSize="12"
+                                FontWeight="Bold"
+                                materialDesign:HintAssist.Foreground="#97af8f"
+                                materialDesign:TextFieldAssist.UnderlineBrush="#97af8f"
+                                VerticalAlignment="Top"
+                                AcceptsReturn="True"
+                                TextWrapping="Wrap"
+                                MaxWidth="400"
+                                Margin="0,0,0,10"
+                                x:Name="dangnhap"
+                                FontFamily="{StaticResource Custom}"
+                                materialDesign:HintAssist.Hint="TÊN ĐĂNG NHẬP"
+                                />
+                            <PasswordBox x:Name="password"
+                                Style="{StaticResource MaterialDesignFilledPasswordBox}"
+                                VerticalAlignment="Top"
+                                Background="White"
+                                Margin="0,0,0,40"
+                                Height="48"
+                                Width="250"
+                                FontSize="12"
+                                FontWeight="Bold"
+                                FontFamily="{StaticResource Custom}"
+                                materialDesign:HintAssist.Foreground="#97af8f"
+                                materialDesign:TextFieldAssist.UnderlineBrush="#97af8f"
+                                materialDesign:HintAssist.Hint="MẬT KHẨU" >
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="PasswordChanged">
+                                        <i:InvokeCommandAction Command="{Binding PasswordChangedCommand}"
+                                                       CommandParameter="{Binding ElementName=password}"></i:InvokeCommandAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </PasswordBox>
+                            <Button
+                                Content="ĐĂNG NHẬP"
+                                Height="47"
+                                Width="252"
+                                FontFamily="{StaticResource Custom}"
+                                Background="AliceBlue"
+                                Foreground="Black"
+                                BorderBrush="Transparent"               
+                                >
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Click">
+                                        <i:InvokeCommandAction Command="{Binding Login}"
+                                                       CommandParameter="{Binding ElementName=LoginWd}"></i:InvokeCommandAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </Button>
+                            <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
+                                <TextBlock
+                                Text="ĐĂNG KÝ"
+                                Margin="0,10,0,0"
+                                FontFamily="{StaticResource Custom}"
+                                Background="Transparent"
+                                >
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RegisterCommand}"
+                                                       CommandParameter="{Binding ElementName=LoginWd}"></i:InvokeCommandAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="Foreground" Value="White"/>
+                                            <Style.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter Property="Foreground" Value="LightBlue"/>
+                                                    <Setter Property="TextDecorations" Value="Underline"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,206 @@
+﻿<Page x:Class="QLST.View.ImportView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:QLST.View"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      mc:Ignorable="d" 
+      x:Name="Importwd"
+      DataContext="{StaticResource ImportVM}"
+      d:DesignHeight="550" d:DesignWidth="665"
+      Title="ImportView">
+    <Border
+                    Height="550"
+                    Width="665"
+                    Background="White"
+                    CornerRadius="40"
+                    Padding="13.75,0,6.875,0"
+                    >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <TextBlock VerticalAlignment="Center" 
+                               FontSize="30" Margin="20,0,0,0" 
+                               FontFamily="{StaticResource Custom}" Foreground="#97af8f" 
+                               >NHẬP HÀNG</TextBlock>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBox
+                                x:Name="txbSearch"
+                                Width="250"
+                                Height="40"
+                                Margin="10,0,0,0"
+                                BorderBrush="Black"
+                                Foreground="Black"
+                                FontSize="16"
+                                FontWeight="SemiBold"
+                                materialDesign:HintAssist.Hint="Tìm Kiếm"
+                                materialDesign:HintAssist.FontFamily="{StaticResource Custom}"
+                                materialDesign:HintAssist.Foreground="White"
+                                materialDesign:TextFieldAssist.TextFieldCornerRadius="10"
+                                materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                                materialDesign:TextFieldAssist.TextBoxViewMargin="10,3,0,0"
+                                BorderThickness="2"
+                                VerticalAlignment="Center" CaretBrush="White" >
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="TextChanged">
+                                <i:InvokeCommandAction Command="{Binding SearchCommand}"
+                                                       CommandParameter="{Binding ElementName=Importwd}"></i:InvokeCommandAction>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </TextBox>
+                    <Button
+                        Content="NHẬP"
+                        Margin="254,0,0,0"
+                        Width="90"
+                        Height="40"
+                        FontFamily="{StaticResource Custom}"
+                        BorderBrush="Transparent"
+                        Foreground="White"
+                        materialDesign:ButtonAssist.CornerRadius="6"
+                        Background="#97af8f"
+                        >
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Click">
+                                <i:InvokeCommandAction Command="{Binding OpenAddImport}"
+                                                       CommandParameter="{Binding ElementName=Importwd}"></i:InvokeCommandAction>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Button>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="2">
+                <StackPanel>
+                    <Border
+                        Margin="-30,0,0,0"
+                        Width="600"
+                        Height="40"
+                        CornerRadius="10"
+                        Background="#97af8f"
+                        >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="180"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <TextBlock
+                                Text="MÃ PHIẾU"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                FontFamily="{StaticResource Custom}"
+                                Foreground="White"
+                                FontSize="12"
+                                />
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <TextBlock
+                                HorizontalAlignment="Center"
+                                Text="NHÂN VIÊN"
+                                VerticalAlignment="Center"
+                                FontFamily="{StaticResource Custom}"
+                                FontSize="12"
+                                Foreground="White"
+                                />
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <TextBlock
+                                Text="NGÀY"
+                                    Margin="77,0,0,0"
+                                HorizontalAlignment="Left"
+                                Foreground="White"
+                                VerticalAlignment="Center"
+                                FontFamily="{StaticResource Custom}"
+                                FontSize="12"
+                                />
+                            </Grid>
+                            
+                        </Grid>
+                    </Border>
+                    <ListView x:Name="ListViewPN" ItemsSource="{Binding listPN}"
+                          Height="350"
+                          Width="650"
+                          SelectionMode="Single"
+                          ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                        >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Border
+                                    Width="600"
+                                    Height="40"
+                                    Background="#97af8f"
+                                    CornerRadius="10"                       
+                                 >
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100"/>
+                                            <ColumnDefinition Width="200"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid Grid.Column="0">
+                                            <TextBlock
+                                                Text="{Binding MAPN}"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Foreground="White"
+                                                FontFamily="{StaticResource Custom}"
+                                                FontSize="12"
+                                            />
+                                        </Grid>
+                                        <Grid Grid.Column="1">
+                                            <TextBlock
+                                                Margin="55,0,0,0"
+                                                HorizontalAlignment="Left"
+                                                Text="{Binding NGUOIDUNG.TENND}"
+                                                VerticalAlignment="Center"
+                                                Foreground="White"
+                                                FontFamily="{StaticResource Custom}"
+                                                FontSize="12"
+                                            />
+                                        </Grid>
+                                        <Grid Grid.Column="2">
+                                            <TextBlock Margin="55,0,0,0"
+                                                Text="{Binding NGAYNHAP, StringFormat=dd/MM/yyyy hh:mm:tt}"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Center"
+                                                       Foreground="White"
+                                                FontFamily="{StaticResource Custom}"
+                                                FontSize="12"
+                                                />
+                                        </Grid>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                        <ListView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Vertical"/>
+                            </ItemsPanelTemplate>
+                        </ListView.ItemsPanel>
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="SelectionChanged">
+                                <i:InvokeCommandAction     Command="{Binding Detail}"
+                                                           CommandParameter="{Binding ElementName=Importwd}"></i:InvokeCommandAction>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </ListView>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        
+    </Border>
+</Page>
